@@ -2,17 +2,17 @@
 from collections import deque
 
 
-def cola_de_creaturas_hostil
+
 creaturas_hostil=["escorpion gigante", "ogro", "bruja"]
 colacreaturas = deque(creaturas_hostil)
 print(colacreaturas)
-colacreaturas.appendleft(M.ObtenerCreaturaHostil())
+colacreaturas.appendleft("Tortuga")
 print(colacreaturas)
 
 
 
-def cola_de_creatura_pasiva
-creatura_pasiva:("ave","perro","caballo")
+
+
 
 #x:creatura_pasiva
 #y:creatura_hostil

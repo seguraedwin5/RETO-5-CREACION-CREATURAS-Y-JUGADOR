@@ -1,12 +1,22 @@
 import pprint  #esta libreria se usa para imprimir diccionarios en filas separadas
 import Edwin as E
 import Maria as M
-import Sebastian as S
+import Cola as c
+#import Sebastian as S
 #import mundo
 #------ Codigo Edwin ---------------
 #import Yesid as Y
 #------ Codigo Yesid ---------------
 #---- Creacion del jugador -----
+
+colahostiles = c.ColaCreaturas()
+colahostiles.Encolar("Pollo")
+if(colahostiles.EstaVacia()):
+    print("La cola esta vacia \n")
+else:
+    print("la cola no esta vacia")
+
+colahostiles.MostrarCola()
 
 jugador = E.ObtenerJugador("Maria")
 pprint.pprint(jugador._asdict())

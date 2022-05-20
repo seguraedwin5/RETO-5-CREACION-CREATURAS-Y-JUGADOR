@@ -1,4 +1,5 @@
 import time as t
+import random as r
 
 matriz = [['▢' for columna in range(0,32)]for fila in range(0,32)]
 #creacion de mundo vacio
@@ -18,7 +19,7 @@ ancho = []
 alto = []
 
 #solicitar al usuario que ingrese los datos
-murosacrear = random.randint(1,5)#int(input("Cuantos muros desea crear? \n"))
+murosacrear = r.randint(1,5)#int(input("Cuantos muros desea crear? \n"))
 
 for muro in range(0,murosacrear):
     valorposx = int(input(f"digite el valor de la posicion en x para el muro {muro+1} \n"))
