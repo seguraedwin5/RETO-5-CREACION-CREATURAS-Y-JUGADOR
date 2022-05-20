@@ -10,14 +10,17 @@ import Cola as c
 #---- Creacion del jugador -----
 
 colahostiles = c.ColaCreaturas()
-colahostiles.Encolar("Pollo")
+colahostiles.Encolar("Raton")
+colahostiles.Encolar("Escopion")
+
+
 if(colahostiles.EstaVacia()):
     print("La cola esta vacia \n")
 else:
     print("la cola no esta vacia")
 
 colahostiles.MostrarCola()
-
+print(colahostiles.ContarItems())
 jugador = E.ObtenerJugador("Maria")
 pprint.pprint(jugador._asdict())
 print('\n')
