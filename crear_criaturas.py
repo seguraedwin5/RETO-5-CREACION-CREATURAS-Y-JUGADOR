@@ -1,0 +1,2 @@
+criaturas ={}
+print (criaturas ["hostil"])

@@ -1,0 +1,3 @@
+    _numcreatura = 1
+    global _numcreaturas 
+    _numcreaturas = _numcreaturas + _numcreatura
