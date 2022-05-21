@@ -33,6 +33,15 @@ def criaturashostiles(numerocriaturashostiles):
   for y in range(numerocriaturashostiles):
     criaturashostiles=["zombie""bruja""gigante""dinosaurio""quimera""troll""ogro""oso""gorila""mago""avestruz""leon""rinoceronte""cobra""tigre de bengala""babuino""jaguar""piraña""tiburon""aguila""lagarto""escorpion gigante""robot""cangrejo""toro""lobo""ciclope""hiena""murcielago"]
     random.shuffle(criaturashostiles)
+    colacriaturashostiles.append(criaturashostiles[y])
+  return colacriaturashostiles
+
+
+
+def  generarcriaturas(numerocriaturaspasivas,numerocriaturashostiles):
+  if(numerocriaturaspasivas+)
+
+    
     
       
 
