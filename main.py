@@ -1,13 +1,18 @@
 import pprint  #esta libreria se usa para imprimir diccionarios en filas separadas
+#import Erica as Er
 import Edwin as E
 import Maria as M
 import Cola as c
 #import Sebastian as S
 #import mundo
+
+#----------------------------------
+#--------- Codigo Erica -----------
+
 #------ Codigo Edwin ---------------
 #import Yesid as Y
 #------ Codigo Yesid ---------------
-#---- Creacion del jugador -----
+#---- Creacion del jugador ---------
 
 colahostiles = c.ColaCreaturas()
 colahostiles.Encolar("Raton")
